@@ -19,6 +19,9 @@
 .logo_place_header {
   position: absolute;
   z-index: 5;
+  margin-left: 64px;
+  margin-top: 30px;
+  display: flex;
 }
 
 .header__title {
@@ -27,8 +30,10 @@
   font-size: 102px;
   font-weight: bold;
   display: flex;
+  flex-direction: column;
+  justify-content: center; /* тут я ваще не уверена */
   align-items: center;
-  justify-content: center;
+  margin-left: 64px;
 }
 
 .header__subtitle {
@@ -38,10 +43,17 @@
   font-weight: normal;
   position: absolute;
   z-index: 4;
+  margin-bottom: 30px;
+  margin-left: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* ваще не уверенанана */
 }
 
 .header__main-illustration {
   position: absolute;
+  display: flex;
+  justify-content: flex-end; /* так, надо понять чё тут делать */
   width: 765px;
   height: 608px;
 }
@@ -49,6 +61,7 @@
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
+  margin-top: 64px;
   height: 568px;
   width: 568px;
 }
