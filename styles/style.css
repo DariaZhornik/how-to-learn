@@ -79,7 +79,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* border: 2px solid #f2f2f2; */
+  /* border: 2px solid #f2f2f2; ? */
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -275,7 +275,6 @@
   min-height: 350px;
 }
 
-/*почему в самом низу дофига пространства?*/
 .footer__columns {
   width: 90%;
   min-height: 250px; /*это надо как-то ещё сделать было?*/
@@ -296,10 +295,6 @@
   width: 50%;
 }
 
-.footer__column_content_info {
-  /*как его позиционировать?*/
-}
-
 .logo_place_footer {
   width: 183px;
   height: 35px;
@@ -312,7 +307,7 @@
   padding-bottom: 18px;
   margin: 0;
 }
- /* мб в хтмле надо не отдельно а в одной штуке тогда делать ссылки...*/
+
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
@@ -336,7 +331,7 @@
 .footer__column-link {
   text-decoration: none;
   color: white;
-} /*не так?*/
+} 
 
 .footer__social-icon {
   margin-right: 10px;
