@@ -13,11 +13,11 @@
   max-height: 756px;
   display: flex;
   position: relative;
-  align-items: flex-start;
+  align-items: center;
   background-color: #f2f2f2;
 }
 
-.header__logo_place_header {
+.logo_place_header {
   position: absolute;
   z-index: 5;
   top: 30px;
@@ -29,7 +29,6 @@
   width: 730px;
   font-size: 102px;
   font-weight: bold;
-  align-self: center;
   padding-left: 64px;
 }
 
@@ -277,7 +276,7 @@
 
 .footer__columns {
   width: 90%;
-  min-height: 250px; /*это надо как-то ещё сделать было?*/
+  min-height: 250px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -295,7 +294,7 @@
   width: 50%;
 }
 
-.footer__logo_place_footer {
+.logo_place_footer {
   width: 183px;
   height: 35px;
 }
