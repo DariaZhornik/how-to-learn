@@ -3,5 +3,11 @@
     text-decoration: none;
     width: 16px;
     height: 16px;
+    opacity: 1;
+    transition: opacity 2s linear 0.1s;
+  }
+
+  .footer__social-icon:hover {
+    opacity: 0.5;
   }
   
