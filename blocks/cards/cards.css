@@ -4,10 +4,10 @@
 @import url("./__title/cards__title.css");
 
 .cards{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-    width: 920px;
-  }
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  max-width: 920px;
+}
