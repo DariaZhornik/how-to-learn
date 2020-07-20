@@ -1,12 +1,12 @@
 .footer__columns {
-    width: 90%;
-    min-height: 250px; /*это надо как-то ещё сделать было?*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-basis: 711px;
-    margin: 0 auto;
-    color: white;
-    padding-top: 60px;
-    padding-bottom: 40px;
-  }
+  width: 90%;
+  min-height: 250px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 711px;
+  margin: 0 auto;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
